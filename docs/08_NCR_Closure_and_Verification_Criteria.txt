@@ -1,0 +1,268 @@
+DOCUMENT TITLE: NCR Closure and Verification Criteria
+DOCUMENT ID: QA-SOP-008
+VERSION: 1.0
+STATUS: Approved for Training / Demo Use
+PROCESS OWNER: Quality Assurance
+REVIEW FREQUENCY: Annual
+
+1. PURPOSE
+
+This procedure defines the minimum criteria for verifying, approving, and closing Non-Conformance Reports (NCRs).
+
+The objective is to ensure that an NCR is closed only after required actions are completed, evidence is available, and effectiveness has been verified where applicable.
+
+2. SCOPE
+
+This procedure applies to:
+
+- Minor NCRs
+- Major NCRs
+- Audit findings
+- Document-control NCRs
+- Inspection-related NCRs
+- Repeated quality failures
+- CAPA-linked NCRs
+- Overdue NCRs
+
+3. GENERAL CLOSURE RULE
+
+An NCR must not be closed simply because the immediate issue was corrected.
+
+Closure requires verification that:
+
+- Required correction is complete
+- Corrective actions are complete
+- Required evidence is available
+- Responsible owner has completed assigned actions
+- Required approvals are complete
+- Effectiveness verification is completed where required
+- No mandatory action remains open
+
+4. CORRECTION VS CORRECTIVE ACTION
+
+Correction:
+Immediate action taken to fix the identified problem.
+
+Examples:
+
+- Replace obsolete form
+- Correct inaccurate record
+- Repeat missed inspection
+- Restore missing approval evidence where valid
+
+Corrective Action:
+Action taken to remove the root cause and prevent recurrence.
+
+Examples:
+
+- Revise SOP
+- Add system control
+- Introduce approval validation
+- Retrain personnel
+- Improve checklist
+- Modify workflow
+
+Correction alone may not be sufficient for closure when root cause action is required.
+
+5. MINOR NCR CLOSURE
+
+A Minor NCR may be closed when:
+
+- Required correction is completed
+- Supporting evidence is available
+- Assigned action is complete
+- No significant residual risk remains
+- QA/QC verification is complete where required
+
+Root cause analysis may not be required for every isolated Minor NCR.
+
+6. MAJOR NCR CLOSURE
+
+A Major NCR must not be closed until:
+
+- Containment is complete
+- Root cause analysis is completed
+- Corrective action is implemented
+- Required CAPA is initiated or completed
+- Supporting evidence is available
+- QA Management approval is obtained
+- Effectiveness verification is completed
+- Significant residual risk is addressed
+
+7. EFFECTIVENESS VERIFICATION
+
+Effectiveness verification is mandatory for:
+
+- Major NCRs
+- Repeated Minor NCRs
+- CAPA-related findings
+- Systemic failures
+- Previous ineffective corrective actions
+
+Verification may include:
+
+- Follow-up audit
+- Sample review
+- Repeat inspection
+- Process observation
+- System validation
+- Record verification
+- Trend analysis
+- Control testing
+
+8. EFFECTIVENESS CRITERIA
+
+Corrective action may be considered effective when:
+
+- Root cause is addressed
+- Issue has not recurred during the verification period
+- New control works as intended
+- Required records are available
+- No unacceptable residual risk remains
+- Process owner is following the revised control
+
+9. INEFFECTIVE ACTION
+
+Corrective action must be considered ineffective when:
+
+- Same issue recurs
+- Required action was not fully implemented
+- Root cause remains unresolved
+- Evidence is insufficient
+- New control is not operating as intended
+- Similar failure appears in another affected area
+
+An ineffective corrective action must be escalated.
+
+10. CLOSURE EVIDENCE
+
+Acceptable closure evidence may include:
+
+- Revised approved SOP
+- Completed training records
+- Updated system configuration
+- Approved workflow change
+- Corrected quality record
+- Reinspection result
+- Follow-up audit report
+- CAPA completion record
+- Management approval
+- Effectiveness review report
+
+Verbal confirmation alone is not sufficient where documented evidence is required.
+
+11. CLOSURE APPROVAL
+
+Minor NCR:
+May be closed by authorized QA/QC personnel, subject to applicable process rules.
+
+Major NCR:
+Requires QA Management closure approval.
+
+CAPA-linked NCR:
+Must remain linked to CAPA status.
+
+The NCR should not be closed if mandatory CAPA actions remain unresolved.
+
+12. OVERDUE NCR
+
+An NCR is overdue when:
+
+- Due date has passed
+- Required actions remain incomplete
+
+Overdue Minor NCR:
+Requires follow-up with Process Owner.
+
+Overdue Major NCR:
+Requires escalation to QA Management.
+
+Repeated overdue NCRs may indicate systemic control weakness.
+
+13. REOPENING AN NCR
+
+A closed NCR should be reopened when:
+
+- Same issue recurs
+- Closure evidence is later found incomplete
+- Corrective action proves ineffective
+- Required action was incorrectly marked complete
+- New evidence changes the original conclusion
+
+14. RESIDUAL RISK
+
+Before closure, any remaining risk should be evaluated.
+
+An NCR must not be closed when:
+
+- Significant customer risk remains
+- Regulatory or contractual risk remains unresolved
+- Safety risk remains unacceptable
+- Critical control failure remains active
+- Required approval remains missing
+
+15. CLOSURE STATUS
+
+Recommended statuses include:
+
+- Open
+- Under Investigation
+- Action in Progress
+- Pending Verification
+- Pending Approval
+- Closed
+- Overdue
+- Reopened
+
+16. CLOSURE CHECKLIST
+
+Before closing an NCR, confirm:
+
+- Requirement identified
+- Classification confirmed
+- Correction complete
+- Root cause completed where required
+- Corrective action completed
+- CAPA linked where required
+- Evidence available
+- Owner action completed
+- Effectiveness verified where required
+- Approval completed
+- No mandatory action remains open
+
+17. MANUAL QA REVIEW RULE
+
+Manual QA Review is required when:
+
+- Closure evidence is incomplete
+- Effectiveness cannot be demonstrated
+- Required approval is missing
+- CAPA status is unclear
+- Residual risk cannot be assessed
+- User-provided information conflicts with available records
+
+The RAG Copilot must not assume that an NCR is closed simply because the user states that work was completed.
+
+18. RAG COPILOT DECISION RULE
+
+For closure-related questions, the QA/QC RAG Copilot must:
+
+- Identify whether closure criteria are satisfied.
+- Identify missing evidence or actions.
+- Determine whether effectiveness verification is required.
+- Determine whether management approval is required.
+- Recommend reopening where evidence shows ineffective action.
+- Identify the source document used.
+- Never invent completion evidence, approvals, dates, or effectiveness results.
+
+Possible conclusions include:
+
+READY FOR CLOSURE
+
+NOT READY FOR CLOSURE
+
+ESCALATION REQUIRED
+
+MANUAL QA REVIEW REQUIRED
+
+END OF DOCUMENT
