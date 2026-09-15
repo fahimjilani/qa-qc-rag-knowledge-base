@@ -1,0 +1,260 @@
+DOCUMENT TITLE: Approval and Authority Matrix
+DOCUMENT ID: QA-SOP-006
+VERSION: 1.0
+STATUS: Approved for Training / Demo Use
+PROCESS OWNER: Quality Assurance
+REVIEW FREQUENCY: Annual
+
+1. PURPOSE
+
+This document defines minimum approval and authority requirements for QA/QC decisions, document changes, NCR classification, CAPA, inspection release, and exceptional quality decisions.
+
+The objective is to ensure that decisions are made only by authorized roles.
+
+2. GENERAL RULE
+
+No employee may approve a quality decision outside their authorized responsibility.
+
+Where a required approval is missing, the activity must not be treated as fully approved.
+
+Unauthorized approval must be evaluated as a quality-control failure.
+
+3. APPROVAL LEVELS
+
+LEVEL 1 – PROCESS OWNER
+
+Typical authority:
+
+- Routine process corrections
+- Minor documentation updates
+- Isolated Minor NCR actions
+- Standard record completion
+- Low-risk rework
+
+LEVEL 2 – QA/QC REPRESENTATIVE
+
+Typical authority:
+
+- QA/QC verification
+- Minor NCR validation
+- Inspection acceptance
+- Reinspection approval
+- Controlled-document review
+- Evidence verification
+
+LEVEL 3 – QA MANAGER
+
+Typical authority:
+
+- Major NCR confirmation
+- CAPA approval
+- Major document-control deviations
+- Significant quality-risk decisions
+- Overdue Major NCR escalation
+- Conditional acceptance of higher-risk cases
+
+LEVEL 4 – FUNCTIONAL / SENIOR MANAGEMENT
+
+Typical authority:
+
+- High business-impact decisions
+- Significant customer commitments
+- Multi-department quality failures
+- Major contractual exposure
+- Significant process exceptions
+
+LEVEL 5 – EXECUTIVE / REGULATORY AUTHORITY
+
+Required only where applicable for:
+
+- Regulatory reporting
+- Critical legal exposure
+- Severe safety risk
+- Exceptional business-risk acceptance
+
+4. DOCUMENT APPROVAL
+
+Controlled documents require approval before operational use.
+
+Typical approval requirements:
+
+Work Instruction:
+- Process Owner review
+- QA/QC approval where quality controls are affected
+
+SOP:
+- Process Owner
+- QA/QC review
+- Required management approval
+
+Quality Policy:
+- QA Management
+- Senior Management
+
+Controlled Form:
+- Process Owner
+- QA/QC approval
+
+Unapproved drafts must not be used operationally.
+
+5. NCR APPROVAL
+
+COMPLIANT:
+No NCR approval required.
+
+OBSERVATION:
+May be recorded by auditor, QA/QC staff, or authorized reviewer.
+
+MINOR NCR:
+May be validated by QA/QC Representative or QA Manager.
+
+MAJOR NCR:
+Must be confirmed or approved by QA Management.
+
+If classification is uncertain, the case must be escalated for manual QA review.
+
+6. CAPA APPROVAL
+
+CAPA associated with a Major NCR requires QA Management approval.
+
+Additional Functional or Senior Management approval may be required when:
+
+- Multiple departments are affected
+- Significant cost exists
+- Customer commitment is affected
+- Contractual exposure exists
+- Significant system change is required
+
+7. INSPECTION AND RELEASE AUTHORITY
+
+Routine acceptance may be performed by an authorized QA/QC inspector.
+
+The following require higher approval:
+
+- Conditional acceptance
+- Critical defect disposition
+- Release with approved deviation
+- Release after Major NCR
+- Exception to mandatory acceptance criteria
+
+Unauthorized final release is a significant control failure.
+
+8. DEVIATION APPROVAL
+
+Any temporary deviation from an approved procedure must:
+
+- Be documented
+- Have defined scope
+- Have defined duration
+- Include risk assessment where required
+- Receive appropriate approval before use
+
+A deviation must not become a permanent unofficial process.
+
+9. DOCUMENT CHANGE AUTHORITY
+
+Controlled-document changes require:
+
+- Document owner
+- Required technical reviewer
+- QA/QC review where applicable
+- Authorized approver
+
+An employee must not change mandatory controls, approval sections, or acceptance criteria without authorized approval.
+
+10. MAJOR NCR ESCALATION
+
+Major NCRs must be escalated to QA Management.
+
+Additional escalation is required when:
+
+- Customer impact exists
+- Regulatory risk exists
+- Contractual risk exists
+- Safety risk exists
+- Multiple departments are affected
+- Senior management decision is required
+- Business continuity may be affected
+
+11. OVERDUE ACTION AUTHORITY
+
+Overdue Minor NCR:
+- Process Owner
+- QA/QC follow-up
+
+Overdue Major NCR:
+- QA Manager escalation required
+
+Overdue CAPA:
+- QA Manager review required
+
+Repeated overdue actions may require Functional Management escalation.
+
+12. AUTHORITY CONFLICT
+
+A person should not approve their own work where independent verification is required.
+
+Where independence is required, approval must be obtained from another authorized person.
+
+13. MISSING APPROVAL
+
+Missing required approval must be evaluated based on risk and impact.
+
+MINOR NCR may apply when:
+
+- Approval was delayed but completed before final use or release
+- No mandatory control was bypassed
+- No significant quality impact occurred
+
+MAJOR NCR may apply when:
+
+- Mandatory approval was completely bypassed
+- Operational use occurred before authorization
+- Customer, contractual, regulatory, or safety risk exists
+- Multiple records or outputs are affected
+
+Final classification must follow the Non-Conformance Procedure and NCR Severity Classification Matrix.
+
+14. EMERGENCY DECISIONS
+
+Emergency quality decisions must still be traceable.
+
+Where normal approval cannot be obtained:
+
+- Authorized emergency approver must be identified
+- Reason must be documented
+- Scope must be limited
+- Decision must be reviewed after the event
+- Required permanent approval must be completed where applicable
+
+Emergency conditions do not automatically remove quality-control requirements.
+
+15. APPROVAL EVIDENCE
+
+Acceptable evidence may include:
+
+- Electronic approval record
+- Approved workflow history
+- Signed controlled document
+- Authorized system approval
+- Formal quality-record approval
+
+Informal verbal approval alone is insufficient where documented approval is mandatory.
+
+16. RAG COPILOT DECISION RULE
+
+The QA/QC RAG Copilot must:
+
+- Identify the decision requiring approval.
+- Determine the minimum authority level supported by this document.
+- Check whether the described approval satisfies the requirement.
+- Never assume that an approval exists.
+- Escalate Major NCR, CAPA, critical release, and high-risk exception decisions appropriately.
+- Cross-reference the Non-Conformance Procedure when required approval was bypassed.
+- Identify the source document used.
+
+If the available evidence does not clearly establish who approved the action or whether the approver had authority, respond:
+
+MANUAL QA REVIEW REQUIRED
+
+END OF DOCUMENT
