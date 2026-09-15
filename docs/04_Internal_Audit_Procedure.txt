@@ -1,0 +1,267 @@
+DOCUMENT TITLE: Internal Audit Procedure
+DOCUMENT ID: QA-SOP-004
+VERSION: 1.0
+STATUS: Approved for Training / Demo Use
+PROCESS OWNER: Quality Assurance
+REVIEW FREQUENCY: Annual
+
+1. PURPOSE
+
+This procedure defines how internal quality audits are planned, performed, documented, reported, followed up, and closed.
+
+The objective is to verify whether processes comply with approved procedures, internal controls, quality requirements, and defined acceptance criteria.
+
+2. SCOPE
+
+This procedure applies to:
+
+- Quality Management System processes
+- QA and QC activities
+- Document control
+- Records management
+- Approval controls
+- CAPA processes
+- NCR management
+- Inspection and verification activities
+- Operational procedures
+- Cross-department quality controls
+
+3. AUDIT PRINCIPLES
+
+Internal audits must be:
+
+- Evidence-based
+- Objective
+- Documented
+- Independent where practical
+- Risk-focused
+- Traceable to defined requirements
+
+Audit conclusions must not be based only on assumptions or verbal statements.
+
+4. AUDIT PLANNING
+
+The audit plan should define:
+
+- Audit scope
+- Audit objective
+- Process or department
+- Audit criteria
+- Auditor
+- Scheduled date
+- Required records
+- Previous findings to review
+
+Higher-risk areas may be audited more frequently.
+
+5. AUDIT CRITERIA
+
+Audit criteria may include:
+
+- Approved SOPs
+- Work instructions
+- Quality policies
+- Controlled forms
+- Approval matrices
+- Contractual requirements
+- Internal quality controls
+- Previous CAPA commitments
+- Defined acceptance criteria
+
+Every audit finding must be linked to an identifiable requirement.
+
+6. AUDIT EVIDENCE
+
+Acceptable evidence may include:
+
+- Approved documents
+- System records
+- Completed forms
+- Logs
+- Inspection records
+- Approval history
+- Training records
+- Audit trails
+- Process observations
+- Interviews supported by objective evidence
+
+Verbal statements alone should not be treated as sufficient evidence when documentary evidence is required.
+
+7. AUDIT FINDING CATEGORIES
+
+Audit findings may be classified as:
+
+A. COMPLIANT
+
+Use when:
+
+- Requirement is fully met.
+- Required evidence is available.
+- Defined controls are operating as intended.
+
+B. OBSERVATION
+
+Use when:
+
+- No confirmed mandatory requirement has been violated.
+- An improvement opportunity exists.
+- A potential weakness may create future risk.
+
+C. MINOR NON-CONFORMANCE
+
+Use when:
+
+- An isolated requirement failure exists.
+- Scope is limited.
+- No significant customer, regulatory, contractual, safety, or systemic risk is identified.
+
+D. MAJOR NON-CONFORMANCE
+
+Use when:
+
+- Significant control failure exists.
+- Mandatory approval or critical requirement was bypassed.
+- Evidence of compliance is unavailable.
+- Failure is repeated or systemic.
+- Multiple records or processes are affected.
+- Significant customer, regulatory, contractual, or safety risk exists.
+
+Final NCR classification must also follow the approved Non-Conformance Procedure and NCR Severity Classification Matrix.
+
+8. AUDIT SAMPLING
+
+Auditors may use representative samples when full-population review is not practical.
+
+Sample selection should consider:
+
+- Process risk
+- Record volume
+- Previous findings
+- Recent changes
+- Known problem areas
+- Customer or compliance impact
+
+A clean sample does not automatically prove that the entire process is compliant.
+
+9. PREVIOUS FINDINGS
+
+Auditors should review previous findings when applicable.
+
+The review should determine whether:
+
+- Corrective action was completed.
+- CAPA was implemented.
+- The issue recurred.
+- Effectiveness was verified.
+- Similar failures exist elsewhere.
+
+Recurrence of a previously closed issue may justify higher severity or CAPA escalation.
+
+10. AUDIT REPORT
+
+An internal audit report should include:
+
+- Audit reference
+- Audit date
+- Scope
+- Auditor
+- Department or process
+- Requirements reviewed
+- Evidence examined
+- Findings
+- Classification
+- Recommended actions
+- Responsible owner
+- Due dates
+- Escalation requirements
+
+11. FINDING EVIDENCE REQUIREMENT
+
+Every NCR identified during an audit should contain sufficient objective evidence to explain:
+
+- What requirement was not met
+- What evidence was reviewed
+- What deviation was identified
+- What records or processes were affected
+
+The finding description should be factual and reproducible.
+
+12. CORRECTIVE ACTION
+
+Process owners must address confirmed audit NCRs.
+
+Depending on severity, action may include:
+
+- Immediate correction
+- Containment
+- Root cause analysis
+- Procedure revision
+- Retraining
+- Control improvement
+- CAPA initiation
+- System change
+
+13. ESCALATION
+
+Escalation to QA Management is required when:
+
+- Major NCR is identified
+- Critical evidence is missing
+- Same finding has recurred
+- Customer impact exists
+- Regulatory or contractual exposure exists
+- Management control failure is identified
+- Multiple departments are affected
+- Corrective actions remain overdue
+- Previous CAPA was ineffective
+
+14. FOLLOW-UP AUDIT
+
+Follow-up review may be required when:
+
+- Major NCR was raised
+- CAPA was initiated
+- Finding was repeated
+- Corrective action effectiveness must be verified
+- Management requests additional assurance
+
+15. AUDIT CLOSURE
+
+An audit may be considered closed when:
+
+- All mandatory findings are assigned.
+- Required actions are completed or formally accepted.
+- Supporting evidence is available.
+- Major NCR effectiveness is verified where required.
+- Outstanding risks are escalated appropriately.
+
+16. AUDIT RECORD RETENTION
+
+Audit records may include:
+
+- Audit plan
+- Checklist
+- Evidence references
+- Finding records
+- Audit report
+- Corrective action evidence
+- Follow-up verification
+- Closure approval
+
+17. RAG COPILOT DECISION RULE
+
+For audit-related questions, the QA/QC RAG Copilot must:
+
+- Identify the applicable audit requirement.
+- Use objective evidence from the approved knowledge base.
+- Distinguish compliant conditions from observations and NCRs.
+- Refer confirmed NCR classification to the Non-Conformance Procedure.
+- Recommend follow-up or escalation when supported by evidence.
+- Identify the source document used.
+- Avoid inventing audit evidence, previous findings, or approvals.
+
+If evidence is insufficient, respond:
+
+MANUAL QA REVIEW REQUIRED
+
+END OF DOCUMENT
