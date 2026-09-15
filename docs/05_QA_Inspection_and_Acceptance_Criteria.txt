@@ -1,0 +1,245 @@
+DOCUMENT TITLE: QA Inspection and Acceptance Criteria
+DOCUMENT ID: QA-SOP-005
+VERSION: 1.0
+STATUS: Approved for Training / Demo Use
+PROCESS OWNER: Quality Assurance
+REVIEW FREQUENCY: Annual
+
+1. PURPOSE
+
+This procedure defines the minimum requirements for QA/QC inspection, verification, acceptance, rejection, rework, and release decisions.
+
+The objective is to ensure that products, services, records, documents, and process outputs are accepted only when defined requirements are met and sufficient evidence is available.
+
+2. SCOPE
+
+This procedure applies to:
+
+- QA inspections
+- QC inspections
+- Process verification
+- Document verification
+- Record review
+- Deliverable acceptance
+- Rework verification
+- Final release checks
+- Quality-control checkpoints
+
+3. INSPECTION REQUIREMENTS
+
+An inspection must be performed against defined requirements.
+
+Inspection criteria may include:
+
+- Approved specification
+- Controlled procedure
+- Checklist
+- Acceptance criteria
+- Contractual requirement
+- Approved drawing or document
+- Required approval
+- Mandatory record requirement
+
+The inspector must not create new acceptance criteria during the inspection.
+
+4. REQUIRED INSPECTION EVIDENCE
+
+Where applicable, inspection evidence should include:
+
+- Inspection date
+- Inspector name
+- Item or process inspected
+- Requirement checked
+- Result
+- Supporting record or reference
+- Exceptions identified
+- Approval or release status
+
+Inspection evidence must be sufficient to demonstrate why an item was accepted or rejected.
+
+5. ACCEPTANCE DECISION
+
+A result may be classified as ACCEPTED when:
+
+- All mandatory requirements are met.
+- Required evidence is available.
+- Required approvals are complete.
+- No unresolved critical defect exists.
+- Required inspection steps were completed.
+- Any permitted deviation has documented approval.
+
+Acceptance must be evidence-based.
+
+6. CONDITIONAL ACCEPTANCE
+
+Conditional acceptance may be used only when:
+
+- The applicable process allows it.
+- Remaining issue does not create significant quality, safety, regulatory, contractual, or customer risk.
+- Required approval for conditional acceptance is documented.
+- Open actions have a responsible owner and due date.
+
+Conditional acceptance without required approval is not valid.
+
+7. REJECTION
+
+A result must be rejected when:
+
+- A mandatory requirement is not met.
+- Required inspection was not completed.
+- Critical evidence is missing.
+- Required approval is unavailable.
+- A critical defect exists.
+- The result creates significant customer, regulatory, contractual, safety, or quality risk.
+
+Rejected output must not proceed to final release unless formally corrected and reverified.
+
+8. REWORK
+
+Rework may be required when a defect can be corrected without creating unacceptable risk.
+
+Rework requirements include:
+
+- Defect clearly identified
+- Required correction defined
+- Responsible person assigned
+- Rework completed
+- Reinspection performed
+- Final result documented
+
+Rework does not automatically close the related NCR if a Non-Conformance was already raised.
+
+9. REINSPECTION
+
+Reinspection is required when:
+
+- Rework was performed
+- A rejected item was corrected
+- A critical issue was resolved
+- Previous evidence was incomplete
+- Corrective action requires verification
+
+Reinspection must confirm compliance with the original approved acceptance criteria.
+
+10. MISSING INSPECTION EVIDENCE
+
+Missing required inspection evidence is a quality issue.
+
+Classification should consider:
+
+A. Minor NCR may apply when:
+- The inspection was actually performed.
+- Supporting evidence can be reliably reconstructed.
+- No significant risk exists.
+- The issue is isolated.
+
+B. Major NCR may apply when:
+- Required inspection was not performed.
+- Evidence cannot demonstrate compliance.
+- Multiple records are affected.
+- Critical release control was bypassed.
+- Customer, contractual, regulatory, or safety risk exists.
+
+Final classification must follow the Non-Conformance Procedure and Severity Classification Matrix.
+
+11. DEFECT SEVERITY
+
+Inspection findings may be evaluated as:
+
+CRITICAL DEFECT
+A defect that may create safety, regulatory, contractual, significant customer, or severe quality risk.
+
+MAJOR DEFECT
+A defect that prevents required functionality, compliance, or acceptance but does not meet the Critical definition.
+
+MINOR DEFECT
+A limited defect that does not significantly affect intended use or compliance but still requires correction where applicable.
+
+Defect severity and NCR severity are related but are not automatically identical.
+
+12. RELEASE CONTROL
+
+Final release should occur only after:
+
+- Required inspection is complete.
+- Acceptance criteria are met.
+- Mandatory approvals are complete.
+- Required records are available.
+- Open critical issues are resolved.
+- Required NCR/CAPA actions do not prevent release.
+
+Unauthorized release before required QA/QC approval is a serious control failure.
+
+13. SAMPLING
+
+Sampling may be used when full inspection is not required by the applicable procedure.
+
+Sampling decisions should consider:
+
+- Risk level
+- Process history
+- Previous defects
+- Record volume
+- Customer requirement
+- Contractual requirement
+- Regulatory requirement
+
+Sampling must not be used to avoid a mandatory 100% inspection requirement.
+
+14. INSPECTION CHECKLIST CONTROL
+
+Inspection checklists must be:
+
+- Approved
+- Current
+- Applicable to the activity
+- Completed accurately
+- Traceable to the inspector
+- Retained as quality evidence where required
+
+Use of an obsolete or unauthorized checklist must be evaluated under the Document Control and Non-Conformance procedures.
+
+15. ESCALATION
+
+Escalation to QA Management is required when:
+
+- Critical defect is identified
+- Mandatory inspection was bypassed
+- Unauthorized release occurred
+- Required evidence cannot demonstrate compliance
+- Multiple failures are identified
+- Repeated inspection failures occur
+- Significant customer impact exists
+- Regulatory or contractual risk exists
+
+16. INSPECTION RECORD STATUS
+
+Recommended statuses include:
+
+- Pending Inspection
+- Accepted
+- Conditionally Accepted
+- Rejected
+- Rework Required
+- Reinspection Required
+- Released
+- Hold
+
+17. RAG COPILOT DECISION RULE
+
+For inspection-related questions, the QA/QC RAG Copilot must:
+
+- Identify the applicable inspection or acceptance requirement.
+- Determine whether sufficient evidence exists.
+- Identify whether the result should be Accepted, Conditionally Accepted, Rejected, Rework Required, or Manual QA Review.
+- Distinguish an inspection result from an NCR classification.
+- Use the Non-Conformance Procedure when a requirement has been violated.
+- Recommend escalation when supported by documented rules.
+- Identify the source document used.
+- Never invent inspection results, approvals, defects, or supporting evidence.
+
+If sufficient evidence is unavailable, respond:
+
+MANUAL QA REVIEW REQUIRED
+
+END OF DOCUMENT
