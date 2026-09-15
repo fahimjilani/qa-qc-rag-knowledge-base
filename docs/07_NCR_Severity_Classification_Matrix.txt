@@ -1,0 +1,230 @@
+DOCUMENT TITLE: NCR Severity Classification Matrix
+DOCUMENT ID: QA-SOP-007
+VERSION: 1.0
+STATUS: Approved for Training / Demo Use
+PROCESS OWNER: Quality Assurance
+REVIEW FREQUENCY: Annual
+
+1. PURPOSE
+
+This document provides a structured severity matrix for classifying QA/QC findings and Non-Conformances.
+
+The objective is to support consistent classification using impact, recurrence, scope, evidence availability, and control failure severity.
+
+2. CLASSIFICATION CATEGORIES
+
+Findings must be classified as:
+
+- Compliant
+- Observation
+- Minor Non-Conformance
+- Major Non-Conformance
+- Manual QA Review Required
+
+3. SEVERITY FACTORS
+
+The following factors must be considered:
+
+A. CUSTOMER IMPACT
+
+0 = No customer impact
+1 = Limited internal impact only
+2 = Potential customer impact
+3 = Confirmed customer impact
+
+B. REGULATORY / CONTRACTUAL IMPACT
+
+0 = None
+1 = Low or indirect risk
+2 = Potential compliance exposure
+3 = Confirmed regulatory or contractual breach
+
+C. SAFETY IMPACT
+
+0 = No safety impact
+1 = Low potential risk
+2 = Moderate safety concern
+3 = Significant or critical safety concern
+
+D. CONTROL FAILURE
+
+0 = No control failure
+1 = Partial control weakness
+2 = Mandatory control partially bypassed
+3 = Mandatory or critical control completely bypassed
+
+E. SCOPE
+
+0 = Single isolated item
+1 = Small number of records
+2 = Multiple records or one department
+3 = Multiple departments or systemic scope
+
+F. RECURRENCE
+
+0 = First occurrence
+1 = Similar previous issue
+2 = Repeated issue
+3 = Repeated issue after prior corrective action or CAPA
+
+G. EVIDENCE AVAILABILITY
+
+0 = Complete evidence available
+1 = Minor evidence gap
+2 = Important evidence incomplete
+3 = Required compliance evidence unavailable
+
+4. SEVERITY SCORE
+
+Severity Score is calculated by adding the applicable factor scores.
+
+Minimum score: 0
+Maximum score: 21
+
+5. SCORE INTERPRETATION
+
+0–2:
+COMPLIANT or OBSERVATION
+
+Typical characteristics:
+- No confirmed mandatory requirement failure
+- Low or no risk
+- Improvement opportunity only
+
+3–6:
+MINOR NON-CONFORMANCE
+
+Typical characteristics:
+- Isolated failure
+- Limited impact
+- No significant regulatory, contractual, customer, or safety risk
+- Evidence can be reconstructed
+- No systemic weakness
+
+7–12:
+MAJOR NON-CONFORMANCE
+
+Typical characteristics:
+- Significant process or control failure
+- Multiple affected records
+- Mandatory approval bypassed
+- Important evidence unavailable
+- Repeated issue
+- Customer, contractual, or regulatory risk may exist
+
+13–21:
+MAJOR NON-CONFORMANCE – HIGH PRIORITY
+
+Typical characteristics:
+- Systemic or widespread failure
+- Critical control bypass
+- Confirmed customer or compliance impact
+- Significant safety risk
+- Repeated ineffective corrective action
+- Immediate management escalation required
+
+6. OVERRIDE RULES
+
+A finding may be classified as Major NCR regardless of total score when any of the following occurs:
+
+- Mandatory approval completely bypassed
+- Critical inspection skipped
+- Regulatory breach confirmed
+- Significant safety risk identified
+- Required compliance evidence unavailable
+- Unauthorized final release occurred
+- Same issue recurred after CAPA
+- Multiple departments are affected by the same systemic failure
+
+7. OBSERVATION RULE
+
+An Observation must not be used when a mandatory requirement has clearly been violated.
+
+Observation is appropriate only when:
+
+- No confirmed mandatory requirement failure exists
+- Improvement opportunity is identified
+- Future risk may exist
+- Current control remains compliant
+
+8. MINOR NCR RULE
+
+Minor NCR is appropriate when:
+
+- Requirement was not fully met
+- Issue is isolated
+- Scope is limited
+- No significant customer, regulatory, contractual, or safety impact exists
+- Evidence remains available
+- No systemic or repeated failure exists
+
+9. MAJOR NCR RULE
+
+Major NCR is appropriate when:
+
+- Mandatory control was bypassed
+- Significant evidence is missing
+- Multiple records are affected
+- Same failure is repeated
+- Systemic weakness exists
+- Customer, regulatory, contractual, or safety risk exists
+- Previous corrective action was ineffective
+
+10. MANUAL QA REVIEW RULE
+
+Manual QA Review is required when:
+
+- Facts are incomplete
+- Impact cannot be determined
+- Evidence conflicts
+- Severity factors cannot be reliably scored
+- Required source documents are unavailable
+- User description is too vague to support classification
+
+The RAG Copilot must not guess missing facts.
+
+11. ESCALATION RULE
+
+Escalation is mandatory for:
+
+- Major NCR
+- High-Priority Major NCR
+- Regulatory or contractual risk
+- Safety-related risk
+- Repeated NCR
+- Systemic issue
+- Missing critical compliance evidence
+- Ineffective previous CAPA
+
+12. CAPA TRIGGER
+
+CAPA should be recommended when:
+
+- Severity score is 7 or higher
+- Major NCR is confirmed
+- Repeat Minor NCR indicates systemic weakness
+- Previous corrective action failed
+- Significant customer, compliance, or safety risk exists
+
+13. RAG COPILOT SCORING RULE
+
+The QA/QC RAG Copilot may recommend a severity score only when sufficient evidence exists for the individual factors.
+
+The response should identify:
+
+- Classification
+- Severity Score
+- Main severity factors
+- Requirement violated
+- Recommended corrective action
+- Escalation requirement
+- CAPA recommendation
+- Source document
+
+If a factor cannot be determined from the available evidence, the Copilot must not invent a value.
+
+If missing information could materially change the classification, respond:
+
+MANUAL QA REVIEW REQUIRED
+
+END OF DOCUMENT
