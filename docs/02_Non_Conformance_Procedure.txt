@@ -1,0 +1,292 @@
+DOCUMENT TITLE: Non-Conformance Procedure
+DOCUMENT ID: QA-SOP-002
+VERSION: 1.0
+STATUS: Approved for Training / Demo Use
+PROCESS OWNER: Quality Assurance
+REVIEW FREQUENCY: Annual
+
+1. PURPOSE
+
+This procedure defines how quality non-conformances are identified, evaluated, classified, recorded, investigated, corrected, escalated, and closed.
+
+The objective is to ensure that quality issues are handled consistently based on risk, impact, recurrence, and evidence.
+
+2. SCOPE
+
+This procedure applies to:
+
+- QA and QC findings
+- Internal audit findings
+- Process deviations
+- Document-control failures
+- Inspection failures
+- Approval-control failures
+- Repeated quality issues
+- Customer-impacting quality failures
+- Compliance-related issues
+- Corrective and preventive action triggers
+
+3. DEFINITION OF NON-CONFORMANCE
+
+A Non-Conformance occurs when a documented requirement, approved procedure, specification, control, approval rule, or acceptance criterion has not been met.
+
+A finding must be supported by objective evidence.
+
+Examples include:
+
+- Required approval missing
+- Approved procedure not followed
+- Incorrect or obsolete controlled document used
+- Required inspection not performed
+- Mandatory record missing
+- Acceptance criteria not met
+- Unauthorized process change
+- Repeated failure of a defined control
+
+4. CLASSIFICATION CATEGORIES
+
+Every finding must be classified as one of the following:
+
+A. COMPLIANT
+
+Use when:
+
+- The required procedure was followed.
+- Required approvals are available.
+- Required records are complete.
+- Acceptance criteria are met.
+- No deviation from an approved requirement is identified.
+
+No NCR is required.
+
+B. OBSERVATION
+
+An Observation is a condition that does not currently represent a confirmed breach of a mandatory requirement but may create future quality risk.
+
+Examples:
+
+- Improvement opportunity
+- Minor documentation clarity issue
+- Potential weakness with no confirmed control failure
+- Good practice not consistently followed where it is not mandatory
+
+Observations should be monitored but do not automatically require an NCR.
+
+C. MINOR NON-CONFORMANCE
+
+A Minor Non-Conformance is an isolated failure that does not create significant quality, regulatory, contractual, safety, or customer risk.
+
+Minor NCR indicators include:
+
+- Isolated incident
+- Limited scope
+- Required control existed but was partially followed
+- Records can be reconstructed
+- No significant customer impact
+- No regulatory impact
+- No systemic failure
+- No repeated pattern
+
+Examples:
+
+- One obsolete form used with no process impact
+- One approval completed late but before final release
+- Minor record-entry omission that can be verified
+- Single procedural deviation with no downstream impact
+
+D. MAJOR NON-CONFORMANCE
+
+A Major Non-Conformance represents a significant or systemic failure.
+
+Major NCR indicators include:
+
+- Mandatory approval bypassed
+- Critical quality control not performed
+- Required evidence unavailable
+- Multiple records affected
+- Repeated or systemic issue
+- Significant customer impact
+- Contractual requirement violated
+- Regulatory or legal risk
+- Safety-related risk
+- Integrity of quality records cannot be demonstrated
+- Previous corrective action failed
+- Unauthorized process used in production or operational activity
+
+Examples:
+
+- Controlled process released without required approval
+- Inspection requirement completely skipped
+- Multiple records created using an unapproved procedure
+- Repeated NCR for the same root cause
+- Missing quality evidence affecting customer delivery
+
+5. CLASSIFICATION RULES
+
+Classification must consider:
+
+- Requirement violated
+- Number of records affected
+- Frequency of occurrence
+- Customer impact
+- Regulatory impact
+- Contractual impact
+- Safety impact
+- Ability to reconstruct records
+- Whether the issue is isolated or systemic
+- Whether similar NCRs occurred previously
+
+When evidence is insufficient, the system must not guess.
+
+The case must be marked:
+
+MANUAL QA REVIEW REQUIRED
+
+6. IMMEDIATE CONTAINMENT
+
+When a Non-Conformance is identified, immediate containment may include:
+
+- Stop use of incorrect document or process
+- Quarantine affected records or output
+- Prevent further processing
+- Correct obvious data errors
+- Inform responsible process owner
+- Replace obsolete documentation
+- Preserve evidence for investigation
+
+Containment is not the same as corrective action.
+
+7. ROOT CAUSE ANALYSIS
+
+Root cause analysis is required when:
+
+- The NCR is classified as Major
+- The issue is repeated
+- The issue indicates systemic weakness
+- Management requests investigation
+- Customer, contractual, or regulatory impact exists
+
+Acceptable root cause methods may include:
+
+- 5 Whys
+- Fishbone analysis
+- Process review
+- Control failure analysis
+- Evidence review
+
+8. CORRECTIVE ACTION
+
+Corrective actions must address the identified root cause.
+
+Examples:
+
+- Procedure revision
+- Additional approval control
+- System validation rule
+- Retraining
+- Access-control change
+- Checklist improvement
+- Process redesign
+- Additional quality verification
+- Document withdrawal
+
+Corrective action must not consist only of correcting the affected record.
+
+9. CAPA REQUIREMENT
+
+A CAPA should be initiated when:
+
+- Major NCR is confirmed
+- Same issue has occurred repeatedly
+- Root cause indicates systemic failure
+- Preventive controls are required
+- Customer or compliance risk exists
+- Previous corrective action was ineffective
+
+10. ESCALATION RULES
+
+Escalation to QA Management is mandatory when:
+
+- Major NCR is identified
+- Regulatory risk exists
+- Customer impact exists
+- Safety risk exists
+- Multiple departments are affected
+- Mandatory approval was bypassed
+- Evidence cannot demonstrate compliance
+- Repeated non-conformance is detected
+- NCR remains overdue
+- Corrective action is ineffective
+
+Minor NCRs may be handled by the process owner unless escalation is required due to recurrence or risk.
+
+11. NCR RECORD REQUIREMENTS
+
+Every NCR record should contain:
+
+- NCR ID
+- Date identified
+- Reporter
+- Department
+- Issue description
+- Requirement violated
+- Supporting evidence
+- Source procedure
+- Classification
+- Severity
+- Containment action
+- Corrective action
+- Assigned owner
+- Due date
+- Escalation status
+- Closure status
+
+12. CLOSURE REQUIREMENTS
+
+An NCR must not be closed until:
+
+- Required corrective action is completed
+- Supporting evidence is available
+- Responsible owner confirms completion
+- QA verifies effectiveness where required
+- Related CAPA is linked if applicable
+- No open mandatory actions remain
+
+13. EFFECTIVENESS VERIFICATION
+
+Effectiveness verification is required for:
+
+- Major NCRs
+- Repeated Minor NCRs
+- CAPA-related findings
+- Systemic failures
+
+Verification may include:
+
+- Follow-up audit
+- Sample review
+- Record inspection
+- Process observation
+- Repeat-control testing
+
+14. OVERDUE NCRs
+
+An NCR is considered overdue when the defined due date has passed and required actions remain incomplete.
+
+Overdue Major NCRs must be escalated to QA Management.
+
+15. RAG COPILOT DECISION RULE
+
+The QA/QC RAG Copilot must:
+
+- Use only evidence from approved knowledge-base documents.
+- Identify the requirement involved.
+- Classify the issue as Compliant, Observation, Minor NCR, or Major NCR.
+- Explain the reason for the classification.
+- Recommend corrective action.
+- Determine whether escalation is required.
+- Identify the source document used.
+- Avoid inventing missing evidence.
+- Refer uncertain cases for manual QA review.
+
+END OF DOCUMENT
