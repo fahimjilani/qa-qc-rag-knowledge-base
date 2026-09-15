@@ -1,0 +1,185 @@
+DOCUMENT TITLE: Document Control SOP
+DOCUMENT ID: QA-SOP-001
+VERSION: 1.0
+STATUS: Approved for Training / Demo Use
+PROCESS OWNER: Quality Assurance
+REVIEW FREQUENCY: Annual
+
+1. PURPOSE
+
+This procedure defines how controlled QA/QC documents, forms, procedures, work instructions, checklists, templates, and records are created, reviewed, approved, issued, revised, distributed, and withdrawn.
+
+The objective is to ensure employees use only the current approved version of a controlled document.
+
+2. SCOPE
+
+This procedure applies to:
+
+- QA and QC procedures
+- Standard Operating Procedures (SOPs)
+- Work instructions
+- Inspection checklists
+- Controlled forms and templates
+- Audit documents
+- CAPA forms
+- NCR forms
+- Approval matrices
+- Quality records
+
+3. DOCUMENT CONTROL REQUIREMENTS
+
+3.1 Every controlled document must have:
+
+- Unique document ID
+- Document title
+- Version or revision number
+- Document owner
+- Approval status
+- Effective date
+
+3.2 A controlled document must not be released for operational use until all required approvals are completed.
+
+3.3 Draft documents must be clearly identified as DRAFT and must not be used for official operational activities.
+
+3.4 Only the latest approved version may be used for operational activities.
+
+3.5 Obsolete versions must be removed from active-use locations or clearly marked OBSOLETE.
+
+4. DOCUMENT CREATION AND APPROVAL
+
+The document owner prepares or revises the document.
+
+Required reviewers verify:
+
+- Technical accuracy
+- Process compliance
+- Regulatory or contractual requirements, where applicable
+- Correct document format
+- Required approval authority
+
+The document becomes controlled only after the required approver authorizes it.
+
+5. DOCUMENT REVISION
+
+Every revision must include:
+
+- New revision number
+- Description of change
+- Date of revision
+- Reviewer details
+- Approver details
+
+Employees must not manually modify an approved controlled document without following the formal revision process.
+
+6. CONTROLLED FORM REQUIREMENTS
+
+Controlled forms must be used exactly as approved.
+
+The following are not allowed without authorization:
+
+- Removing mandatory fields
+- Changing approval sections
+- Editing controlled instructions
+- Creating unofficial copies for operational use
+- Using an outdated form
+- Using an unapproved replacement form
+
+7. UNCONTROLLED OR UNAPPROVED DOCUMENT USE
+
+Use of an unapproved or obsolete controlled document is a quality issue.
+
+The issue must be evaluated based on impact.
+
+Examples:
+
+A. Minor Non-Conformance may apply when:
+- An obsolete form was used but no required control was bypassed.
+- The issue was isolated.
+- No customer, compliance, product, service, or record integrity impact occurred.
+- The correct information can be fully reconstructed.
+
+B. Major Non-Conformance may apply when:
+- An unapproved document bypassed a mandatory approval.
+- Required quality evidence cannot be demonstrated.
+- Multiple records are affected.
+- The issue creates regulatory, contractual, customer, safety, or significant quality risk.
+- An obsolete procedure resulted in an incorrect operational decision.
+- Required records cannot be reconstructed.
+
+Final classification must also follow the NCR Severity Classification Matrix.
+
+8. DOCUMENT DISTRIBUTION
+
+Controlled documents may be distributed through approved systems such as:
+
+- Document Management System
+- Controlled shared repository
+- Approved quality portal
+
+Email attachments or locally saved copies should not be treated as the master controlled version unless specifically authorized.
+
+9. OBSOLETE DOCUMENT CONTROL
+
+When a document is replaced:
+
+- The previous version must be withdrawn from active use.
+- Electronic access should be restricted where appropriate.
+- Archived versions must remain identifiable.
+- The effective version must be clearly available.
+
+10. DOCUMENT CONTROL VIOLATIONS
+
+Examples of violations include:
+
+- Using an unapproved SOP
+- Using an obsolete checklist
+- Changing an approved form without authorization
+- Missing approval evidence
+- Unauthorized document distribution
+- Failure to remove obsolete documents
+- Operational use of a draft document
+
+These cases must be evaluated through the Non-Conformance Procedure.
+
+11. CORRECTIVE ACTION
+
+Depending on severity, corrective action may include:
+
+- Immediate withdrawal of the incorrect document
+- Replacement with the current approved version
+- Review of affected records
+- Retraining of responsible personnel
+- Root cause analysis
+- CAPA initiation
+- Verification that obsolete copies have been removed
+
+12. ESCALATION
+
+Escalation to QA Management is required when:
+
+- A Major Non-Conformance is suspected.
+- Multiple departments are affected.
+- Customer or regulatory impact may exist.
+- Required approval was deliberately bypassed.
+- Records cannot demonstrate compliance.
+- The same document-control failure has occurred repeatedly.
+
+13. RECORDS
+
+The following evidence should be retained where applicable:
+
+- Approval history
+- Revision history
+- Distribution records
+- Obsolete-document archive
+- Training acknowledgement
+- NCR reference
+- CAPA reference
+
+14. DECISION RULE
+
+If the available evidence is insufficient to determine whether document-control requirements were violated, the case must be referred for manual QA review.
+
+The QA/QC RAG Copilot must not invent approvals, requirements, document versions, or classifications that are not supported by the approved knowledge base.
+
+END OF DOCUMENT
